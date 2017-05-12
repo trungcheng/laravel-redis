@@ -1,0 +1,31 @@
+.login-page {
+    background-image: url('/dist/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-logo a {
+    color: #FFFFFF;
+}
+
+.nav-stacked > li.active > a, .nav-stacked > li.active > a:hover {
+    background: #dcdcdc;
+}
+
+.preview-placeholder {
+    border: 3px dashed #E8E8E8;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .08);
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px;
+    font-size: 22px;
+    color: #aaa;
+    cursor: pointer;
+    position: relative;
+}
+
+.category-item > a {
+    display: none;
+}
